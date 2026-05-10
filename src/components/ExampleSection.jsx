@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { EXAMPLES } from "../data";
 import Examples from "./Examples";
 import TabButton from "./TabButton";
 
-function ExampleSection({ activeTab, setActiveTab }) {
+function ExampleSection() {
+  const [activeTab, setActiveTab] = useState("");
   return (
     <section id="examples">
       <h2>Examples</h2>
