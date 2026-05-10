@@ -60,9 +60,6 @@ function App() {
           </div>
         </section>
       </main>
-      {for ( const number of [1,2,3])
-       return <p>{number}</p>
-      }
     </div>
   );
 }
